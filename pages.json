@@ -1,9 +1,9 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/login/index",
+			"path": "pages/home/index",
 			"style": {
-				"navigationBarTitleText": "登录",
+				"navigationBarTitleText": "uni-app",
 				"app-plus": {
 					"titleNView": false,
 					"bounce":"none",
@@ -13,9 +13,51 @@
 			}
 		},
 		{
-			"path": "pages/index/index",
+			"path": "pages/message/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "uni-app",
+				"app-plus": {
+					"titleNView": false,
+					"bounce":"none",
+					"animationType":"fade-in",
+					"scrollIndicator":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/resume/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"app-plus": {
+					"titleNView": false,
+					"bounce":"none",
+					"animationType":"fade-in",
+					"scrollIndicator":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"app-plus": {
+					"titleNView": false,
+					"bounce":"none",
+					"animationType":"fade-in",
+					"scrollIndicator":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none",
+					"animationType": "fade-in",
+					"scrollIndicator": "none"
+				}
 			}
 		}
 	],
@@ -24,5 +66,36 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#B5B5B5",
+		"selectedColor": "#00c1d2",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"text": "首页",
+				"iconPath": "/static/tabbar/home.png",
+				"selectedIconPath": "/static/tabbar/home-active.png"
+			},
+			{
+				"pagePath": "pages/message/index",
+				"text": "消息",
+				"iconPath": "/static/tabbar/message.png",
+				"selectedIconPath": "/static/tabbar/message-active.png"
+			},
+			{
+				"pagePath": "pages/resume/index",
+				"text": "简历",
+				"iconPath": "/static/tabbar/resume.png",
+				"selectedIconPath": "/static/tabbar/resume-active.png"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "我的",
+				"iconPath": "/static/tabbar/user.png",
+				"selectedIconPath": "/static/tabbar/user-active.png"
+			}
+		]
 	}
 }

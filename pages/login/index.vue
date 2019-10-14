@@ -16,9 +16,9 @@
 			<view class="other">
 				<text class="title">其他登录</text>
 				<view>
-					<text class="icon iconfont icon-weibo"></text>
-					<text class="icon iconfont icon-QQ1-copy-copy-copy-copy"></text>
-					<text class="icon iconfont icon-wchat"></text>
+					<text class="icon iconfont iconweibo"></text>
+					<text class="icon iconfont iconqq"></text>
+					<text class="icon iconfont iconlogo-wechat"></text>
 				</view>
 			</view>
 		</view>
@@ -122,13 +122,13 @@
 						margin: 0 20rpx;
 						font-size: 70rpx;
 						&:nth-of-type(1){
-							color: #449CFA;
+							color: #DF4D69;
 						}
 						&:nth-of-type(2){
-							color: #3EB135;
+							color: #449CFA;
 						}
 						&:nth-of-type(3){
-							color: #DF4D69;
+							color: #3EB135;
 						}
 					}
 				}
