@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"user.",[1],"data-v-1cc75914 { min-height: 100vh; background: #F2F2F2; padding: ",[0,20],"; -webkit-box-sizing: border-box; box-sizing: border-box; }\n.",[1],"user .",[1],"box-item .",[1],"item.",[1],"data-v-1cc75914 { margin-bottom: ",[0,20],"; }\n",],undefined,{path:"./pages/user/index.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/user/index.wxml') } }));

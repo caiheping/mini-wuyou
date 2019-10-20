@@ -1,0 +1,1 @@
+<view class="user data-v-1cc75914"><view class="box-item data-v-1cc75914"><block wx:for="{{itemLists}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="item data-v-1cc75914"><common-list vue-id="{{'1-'+index}}" lists="{{item.lists}}" class="data-v-1cc75914" bind:__l="__l"></common-list></view></block></view></view>
