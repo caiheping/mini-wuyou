@@ -14,6 +14,7 @@
 
 
 /*每个页面公共css */
+/* 引入官方css库 */
 @font-face {
 	font-family: uniicons;
 	font-weight: normal;
@@ -1625,6 +1626,7 @@ radio-group label, checkbox-group label{
         -ms-transform: translateY(50%);
             transform: translateY(50%);
 }
+/* 引入自定义图标库 */
 @font-face {font-family: "iconfont";
   src: url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2')}
 .iconfont {
@@ -1658,4 +1660,8 @@ radio-group label, checkbox-group label{
 .iconbaseline-close-px:before {
   content: "\E615";
 }
+/* 引入动画库 */
+/* @import './common/animate.css'; */
+/* 公共样式 */
+/* @import './common/common.css'; */
 

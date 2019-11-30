@@ -14,6 +14,12 @@
 
 <style>
 	/*每个页面公共css */
-	@import url("./common/uni.css");
-	@import url("./common/iconfont.css");
+	/* 引入官方css库 */
+	@import './common/uni.css';
+	/* 引入自定义图标库 */
+	@import './common/iconfont.css';
+	/* 引入动画库 */
+	/* @import './common/animate.css'; */
+	/* 公共样式 */
+	/* @import './common/common.css'; */
 </style>

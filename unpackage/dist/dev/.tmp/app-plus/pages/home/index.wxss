@@ -42,11 +42,55 @@ view.data-v-cf2fcdb0 {
   font-size: 28rpx;
   line-height: inherit;
 }
+.nav-left.data-v-cf2fcdb0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nav-tab-bar.data-v-cf2fcdb0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 24px;
+  border: 1px solid #bebebe;
+}
+.nav-tab-bar .input-view.data-v-cf2fcdb0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.nav.data-v-cf2fcdb0 {
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+}
 .home.data-v-cf2fcdb0 {
-  background: #F2F2F2;
+  background: #f2f2f2;
 }
 .home .home-body.data-v-cf2fcdb0 {
     border-top: 1px #f5f5f5 solid;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 88rpx;
 }
 .home .home-body .city.data-v-cf2fcdb0 {
       display: -webkit-box;
@@ -97,7 +141,7 @@ view.data-v-cf2fcdb0 {
 }
 .home .baner.data-v-cf2fcdb0 {
     height: 300rpx;
-    background: #FFFFFF;
+    background: #ffffff;
 }
 .home .baner .swiper.data-v-cf2fcdb0 {
       height: 300rpx;
@@ -111,7 +155,7 @@ view.data-v-cf2fcdb0 {
 .home .menus.data-v-cf2fcdb0 {
     margin: 20rpx 0;
     padding: 20rpx 0;
-    background: #FFFFFF;
+    background: #ffffff;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -142,7 +186,7 @@ view.data-v-cf2fcdb0 {
               justify-content: center;
 }
 .home .menus .item .img.data-v-cf2fcdb0 {
-        background: #007AFF;
+        background: #007aff;
         border-radius: 4px;
         overflow: hidden;
         width: 100rpx;
@@ -157,7 +201,7 @@ view.data-v-cf2fcdb0 {
         text-align: center;
 }
 .home .recommend.data-v-cf2fcdb0 {
-    background: #FFFFFF;
+    background: #ffffff;
     padding: 20rpx 20rpx 0;
 }
 .home .recommend .title.data-v-cf2fcdb0 {
@@ -176,7 +220,7 @@ view.data-v-cf2fcdb0 {
 }
 .home .recommend .title text.data-v-cf2fcdb0 {
         font-weight: bold;
-        color: #007AFF;
+        color: #007aff;
         font-size: 32rpx;
         text-align: center;
 }
@@ -185,7 +229,7 @@ view.data-v-cf2fcdb0 {
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
-      border-bottom: 1rpx solid #F2F2F2;
+      border-bottom: 1rpx solid #f2f2f2;
       -webkit-box-pack: justify;
       -webkit-justify-content: space-between;
           -ms-flex-pack: justify;
@@ -233,7 +277,7 @@ view.data-v-cf2fcdb0 {
 }
 .home .recommend .recommend-list .item .right .title.data-v-cf2fcdb0 {
           font-weight: bold;
-          color: #007AFF;
+          color: #007aff;
 }
 .home .recommend .recommend-list .item .right text.data-v-cf2fcdb0 {
           color: #999999;
@@ -253,5 +297,40 @@ view.data-v-cf2fcdb0 {
 .home .recommend .recommend-list .more text.data-v-cf2fcdb0 {
         line-height: 40px;
         color: #999999;
+}
+.nav-left > view.data-v-cf2fcdb0,
+.nav-right > view.data-v-cf2fcdb0 {
+  font-size: 40rpx;
+}
+.nav-left > view.data-v-cf2fcdb0 {
+  color: #ff9619;
+}
+.nav-left.data-v-cf2fcdb0 {
+  margin-left: 16rpx;
+}
+.nav-right.data-v-cf2fcdb0 {
+  width: 100%;
+}
+.nav-tab-bar.data-v-cf2fcdb0 {
+  width: 100%;
+  margin-left: -20rpx;
+  position: relative;
+}
+.nav-tab-bar > view.data-v-cf2fcdb0 {
+  font-size: 32rpx;
+  padding: 0 15rpx;
+  font-weight: bold;
+  color: #969696;
+}
+.active.data-v-cf2fcdb0 {
+  color: #333333 !important;
+}
+.nav-tab-bar-line.data-v-cf2fcdb0 {
+  border-bottom: 5rpx solid #fede33;
+  border-top: 5rpx solid #fede33;
+  width: 70rpx;
+  border-radius: 20rpx;
+  position: absolute;
+  bottom: 12rpx;
 }
 

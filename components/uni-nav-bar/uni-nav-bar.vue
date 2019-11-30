@@ -1,6 +1,5 @@
 <template>
-
-	<view class="uni-navbar">
+	<view class="uni-navbar" :class="`backgroundColor: ${backgroundColor}`">
 		<view :class="{'uni-navbar--fixed': fixed,'uni-navbar--shadow':border,'uni-navbar--border':border}" :style="{'background-color':backgroundColor}" class="uni-navbar__content">
 			<uni-status-bar v-if="statusBar" />
 			<view :style="{color:color}" class="uni-navbar__header uni-navbar__content_view">
@@ -44,6 +43,10 @@
 			uniIcon
 		},
 		props: {
+			backgroundColor: {
+				type: String,
+				default: '#ffffff'
+			},
 			title: {
 				type: String,
 				default: ''

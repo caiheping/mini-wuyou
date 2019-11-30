@@ -1,8 +1,11 @@
 {
-  "navigationBarTitleText": "uni-app",
+  "navigationBarTitleText": "简历",
   "titleNView": false,
   "bounce": "none",
   "animationType": "fade-in",
   "scrollIndicator": "none",
-  "usingComponents": {}
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "uni-list-item": "/components/uni-list-item/uni-list-item"
+  }
 }
