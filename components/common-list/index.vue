@@ -1,6 +1,6 @@
 <template>
 	<view class="uni-container">
-		<view class="uni-panel" v-for="item in lists" :key="item.url">
+		<view class="uni-panel" v-for="(item, index) in lists" :key="index">
 			<view class="uni-panel-h" @click="goDetailPage(item.url)">
 				<view class="left">
 					<image src="" mode=""></image>
@@ -14,7 +14,10 @@
 <script>
 	export default {
 		props: {
-			lists: []
+			lists: {
+				type: Array,
+				require: true
+			}
 		},
 		onLoad() {},
 		onReady() {},
